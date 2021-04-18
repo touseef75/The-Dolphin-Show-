@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    /* height: 100vh; */
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #0077b6;
+    color: white;
+
+}
+
+nav{
+    display: flex;
+}
+ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    margin: auto;
+    justify-content: flex-end;
+
+}
+li{
+    margin: 30px;
+}
+.content{
+    height: 70vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time{
+    color: #ffc300;
+}
+.icon{
+    margin: auto;
+    font-size: 2rem;
+    display: none;
+}
+/* section1 */
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.d1{
+    text-align: center;
+    font-size: 3rem;
+}
+h3{
+    border-bottom: 2px white solid;
+    width:80%;
+}
+h6{
+    border-bottom: 2px white solid;
+    width:40%;
+}
+h3{
+    color: #ffc300;
+
+}
+/* section2 */
+.card2{
+    width: 90%;
+    margin: auto;
+    background-image: url(./image/photo-1569821177600-77115bd0f5c6.jpg);
+    padding: 4rem;
+    text-align-last: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 15px 15px 110px black;
+}
+button{
+    border: 2px white solid;
+    background: transparent;
+    color: white;
+    padding: 0.6rem 1rem;
+    transition:  0.5s linear;
+}
+button:hover{
+    background-color: #ffc300;
+    color: white;
+}
+/* section3 */
+
+.card3{
+    display: flex;
+  
+    justify-content: space-evenly;
+}
+
+.cont{
+    background-image: url(./for\ card.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+/* .section4 */
+.animi{
+    text-align: center;
+    font-size: 7rem;
+}
+.para{
+    text-align: center;
+    font-size: 1rem;
+}
+.but{
+    text-align: center;
+}
+/* section5 */
+.card4{
+    width: 90%;
+    margin: auto;
+    padding: 4rem;
+    text-align-last: center;
+    background-color: #134383;
+    box-shadow: 15px 15px 110px black;
+}
+/* .section6 */
+.section6{
+
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .icon{
+    margin: auto;
+    font-size: 2rem;
+    display: flex;
+}
+ul{
+    display: none;
+    width: 100%;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+.animi{
+    font-size: 2rem;
+}
+
+    
+}
