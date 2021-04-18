@@ -8,7 +8,7 @@
     width: 100%;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #0077b6;
+    background-color: #134383;
     color: white;
 
 }
@@ -67,8 +67,8 @@ h3{
 .card2{
     width: 90%;
     margin: auto;
-    background-image: url(./image/photo-1569821177600-77115bd0f5c6.jpg);
     padding: 4rem;
+    background-color: #214f8b;
     text-align-last: center;
     background-size: cover;
     background-attachment: fixed;
@@ -110,6 +110,7 @@ button:hover{
 }
 .but{
     text-align: center;
+    padding: 10px 40px;
 }
 /* section5 */
 .card4{
@@ -122,10 +123,21 @@ button:hover{
 }
 /* .section6 */
 .section6{
-
+   
+    text-align: center;
+    color: white;
+}
+/* end */
+.end{
     text-align: center;
 }
-
+.icons{
+    font-size: 4rem;
+    display: flex;
+    width: 30%;
+    margin: auto;
+    justify-content: space-around;
+}
 
 @media screen and (max-width: 768px) {
     .icon{
