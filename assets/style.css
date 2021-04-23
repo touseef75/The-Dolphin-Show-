@@ -160,6 +160,19 @@ ul{
 .animi{
     font-size: 2rem;
 }
-
+.icons{
+    font-size: 1.9rem;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    justify-content: space-around;
+}
+.content{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
     
 }
