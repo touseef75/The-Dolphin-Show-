@@ -12,6 +12,9 @@
     color: white;
 
 }
+body{
+    overflow-x: hidden;
+}
 
 
 nav{
@@ -150,6 +153,9 @@ button:hover{
     margin: auto;
     font-size: 2rem;
     display: flex;
+}
+body{
+    overflow-x: hidden;
 }
 ul{
     display: none;

@@ -5,6 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>
@@ -68,7 +70,7 @@
                 <br>
                 <br>
                 <br><br>
-                <div class="content2 row">
+                <div class="content2 row" data-aos="fade-left">
                     <div class="sed1 col-md-2">
                         <h3>10:00</h3><br>
                         <h5>Sea lions up close program</h5>
@@ -98,7 +100,7 @@
                 <br>
                 <br>
                 <br>
-                <div class="content2 row">
+                <div class="content2 row" data-aos="fade-right">
                     <div class="sed1 col-md-2">
                         <h3>10:00</h3><br>
                         <h5>Sea lions up close program</h5>
@@ -134,7 +136,7 @@
             <br>
 
             <!-- .section2 -->
-            <div class="section2">
+            <div class="section2" data-aos="fade-left">
                 <div class="card2 row">
                     <div class="por1 col-md-6"><img src="./assets/image/virtual-tour-001-free-img.png" alt="" width="80%" ></div>
                     <div class="por2 col-md-6">
@@ -161,7 +163,7 @@
             </div>
             <!-- section4  -->
             <div class="section3">
-                <div class="content4">
+                <div class="content4 " data-aos="fade-right">
                     <br>
                     <br>
                     <br>
@@ -178,7 +180,7 @@
                     <br>
                     <br>
                     <br><br>
-                    <div class="card3 row">
+                    <div class="card3 row" data-aos="fade-left">
                         <div class="cont col-md-4">
                         <img src="./assets/image/animals-02-free-img.png" width="70%" alt="">
                         <h1>SEA LIONS</h1>
@@ -205,8 +207,8 @@
         <br>
         <br>
         <!-- section5 -->
-        <div class="section2">
-            <div class="card4 row">
+        <div class="section2" >
+            <div class="card4 row" data-aos="fade-right">
                 <div class="por1 col-md-6"><img src="./assets/image/animals-01-free-img.png" alt="" width="90%"  style="box-shadow:  10px 10px 20px white; border: none;" ></div>
                 <div class="por2 col-md-6">
                     <div class="content3">
@@ -241,7 +243,7 @@
         
         <section class="section6">
             <div class="content6">
-                <div class="imag6"><img src="./assets/image/animals-05-free-img.png" alt="" width="80%"></div>
+                <div class="imag6" data-aos="fade-left"><img src="./assets/image/animals-05-free-img.png" alt="" width="80%"></div>
                 <h2>NOW OPEN</h2>
                 <br>
 
@@ -260,10 +262,10 @@
             <br>
             <br>
             <br><br>
-            <div class="logo"><img src="./assets/image/logo-regular-free-img-150x92.png" alt=""></div>
+            <div class="logo" data-aos="fade-right"><img src="./assets/image/logo-regular-free-img-150x92.png" alt=""></div>
             <br><br>
             <br>
-            <h4>Copyright © 2021 Aquarium | Powered by Aquarium</h4>
+            <h4 data-aos="fade-left">Copyright © 2021 Aquarium | Powered by Aquarium</h4>
             <br>
             <br>
             <br>
@@ -292,6 +294,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
     -->
     <script src="./assets/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+        </script>
 </body>
 
 </html>
